@@ -1,0 +1,16 @@
+# 忽略 Obsidian 核心配置目录
+# 同步核心插件列表但不同步个人设置
+.obsidian/*
+!.obsidian/community-plugins.json
+!.obsidian/community-themes.json
+
+# 可选：其他 Obsidian 可能生成的缓存或临时文件
+.trash/
+*.obsidian-backup
+*.obsidian-workspace
+
+# 可选：通用 IDE/编辑器配置文件（按需添加）
+.DS_Store
+.idea/
+.vscode/
+*.swp
